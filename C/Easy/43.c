@@ -7,7 +7,7 @@ union MyUnion {
 
 int main() {
     union MyUnion myUnion;
-    myUnion.x = 10;
-    myUnion.c = 'A'; 
+    MyUnion.x = 10;
+    MyUnion.c = 'A'; 
     return 0;
 }
