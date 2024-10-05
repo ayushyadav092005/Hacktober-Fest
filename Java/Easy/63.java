@@ -1,6 +1,6 @@
 class Main {
     public static void main(String[] args) {
-        int x = 5;
+        int x;
         switch (x) {
             case 5:
                 System.out.println("Five");
