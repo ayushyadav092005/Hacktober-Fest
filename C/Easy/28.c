@@ -8,7 +8,7 @@ int main() {
         scanf("%d", &numbers[i])
     }
     
-    printf("The array elements are:\n");
+    printf("The array elements are: %d\n",numbers[i]);
     
     return 0;
 }
