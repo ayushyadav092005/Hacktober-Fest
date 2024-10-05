@@ -6,6 +6,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         arr[i] = i;
     }
-    printf("%d", arr[3]);
+    printf("%d", arr[n]);
     return 0;
 }
