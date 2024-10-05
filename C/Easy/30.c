@@ -3,24 +3,27 @@
 int main() {
     char grade;
     printf("Enter your grade (A, B, C, D, or F): ");
-    scanf(" %c", &grade);
+    scanf("%c", &grade);
     
     switch(grade) {
         case 'A':
-            printf("Excellent!");
+            printf("\nExcellent!");
             break;
         case 'B':
-            printf("Good job!");
+            printf("\nGood job!");
             break;
         case 'C':
-            printf("Average performance.");
+            printf("\nAverage performance.");
             break;
         case 'D':
-            printf("Need improvement.");
+            printf("\nNeed improvement.");
             break;
         case 'F':
-            printf("Failed.");
+            printf("\nFailed.");
             break;
+        default:
+            printf("\nInvalid Input!")
+
     }
     return 0;
 }
