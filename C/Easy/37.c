@@ -2,11 +2,11 @@
 
 int main() {
     
-    for (int i = 0; i < _; i++) {
+    for (int i = 0; i <= 5; i++) {
         printf("%d\n", i);  
 
         
-        if (i __ 5) {
+        if (i <= 5) {
             printf("Reached 5!\n");
         }
     }
