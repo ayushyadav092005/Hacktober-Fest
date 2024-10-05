@@ -1,9 +1,9 @@
-message = ‘py" 
+message = "py" 
 print(message)
 
-title = "Python's "cool" feature"
+title = "Python's cool feature"
 
-description = 'This is a Python "error example'
+description = 'This is a Python error example'
 
-sentence = “Hello, Python!”
+sentence = ("Hello, Python!")
 print(sentence)
