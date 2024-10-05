@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num = 2;
+    int num ;
     switch (num) {
         case 1:
             printf("One");
