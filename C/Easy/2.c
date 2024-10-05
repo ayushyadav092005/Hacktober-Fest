@@ -1,7 +1,7 @@
 int main() {
-    int a = 10;
-    double b = 5.5;
-    int c = a + b;
-    printf("The sum of a and b is %d", c);
+    float a = 10.0;
+    float b = 5.5;
+    float c = a + b;
+    printf("The sum of a and b is %f", c);
     return 0;
 } 
