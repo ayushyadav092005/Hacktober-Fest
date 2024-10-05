@@ -4,6 +4,9 @@ int main()
 {
     const int a = 10;
     b = 11;
-    
-    b = 110;
+    int c=a*b;
+    c = 110;
+    cout<< "entered no. is "<<c<<endl;
+
+    return 0;
 }
