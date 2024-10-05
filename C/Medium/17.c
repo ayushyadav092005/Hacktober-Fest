@@ -4,11 +4,11 @@
 // Function to calculate Fibonacci
 int fibonacci(int n) {
     if (n == 0)
-        return ___;  // Fill in the blank
+        return 0;  // Fill in the blank
     else if (n == 1)
-        return ___;  // Fill in the blank
+        return 1;  // Fill in the blank
     else
-        return fibonacci(n - 1) + fibonacci(___);  // Fill in the blank
+        return fibonacci(n - 1) + fibonacci( n - 2);  // Fill in the blank
 }
 int main() {
     int n;
