@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 int sum(int a, int b, int c) {
-    return a + b; 
+    return a + b +c; 
+
 }
 
 int main() {
